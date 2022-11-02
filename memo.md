@@ -28,3 +28,22 @@
 504 Timeout
 
 백엔드 서버 측 호출을 만든 Ajax 자바스크립트를 검토하기 시작했습니다. 불행히도 자바 스크립트에는 오류 처리 코드가 없습니다. 따라서 오류 코드가 발생하면 처리되지 않고 화면에 진행률 표시줄이 영원히 표시됩니다.
+
+
+
+Goal
+Static Pages와 Dynamic Pages 과정을 이해한다.
+Web Server와 WAS의 차이를 이해한다.
+Web 서비스 구조(Web Service Architecture)에 대해 이해한다.
+Static Pages와 Dynamic Pages
+
+### 정적 페이지 *Static Pages*
+
+Web Server는 파일 경로 이름을 받아 경로와 일치하는 file contents를 반환한다.
+항상 동일한 페이지를 반환한다.
+Ex) image, html, css, javascript 파일과 같이 컴퓨터에 저장되어 있는 파일들
+
+### 동적 페이지 *Dynamic Pages*
+
+인자의 내용에 맞게 동적인 contents를 반환한다.
+즉, 웹 서버에 의해서 실행되는 프로그램을 통해서 만들어진 결과물
