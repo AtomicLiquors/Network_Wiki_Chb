@@ -3,7 +3,7 @@ SPoF Single Point of Failure
 
 혼자만 고장나도 전체 시스템이 함께 고장나는 시스템 구성요소.
 
-## **왜 필요한가?**
+## **이중화가 왜 필요한가?**
 FT Fault Tolerance  : 결함허용  
 특정 인프라에 문제가 발생하더라도 다른 인프라를 통해 서비스가 지속되도록 해 준다.  
 
@@ -18,7 +18,7 @@ Active-Active
  
 
 
-### **LACP**
+## **LACP**
 액티브-액티브 구조 
 
 Link Aggregation Control Protocol  
@@ -43,3 +43,36 @@ PXE : Pre-boot eXecution Environment
 
 
 서버 인터페이스의 이중화는 네트워크 인터페이스의 이중화와 다르다.
+
+ 
+&nbsp;
+ 
+ 
+&nbsp;
+ 
+
+
+
+## **MC-LAG**
+*Multi-Chassis Link Aggregation Group*
+서로 다른 스위치간의 단일 MAC주소를 이용해 액티브-액티브 형태의 이중화 구성
+실제 MAC 주소 대신 가상 MAC 주소를 만들어 논리 인터페이스로 LACP를 구성한다.
+
+ 
+&nbsp;
+ 
+### **구성요소**
+- 피어 장비
+- MC-LAG 도메인 (표준 용어는 아니고 이해를 돕기 위해 이렇게 말씀드립니다.)
+- 피어 링크
+
+ 
+&nbsp;
+ 
+ 
+&nbsp;
+ 
+## **게이트웨이 이중화**
+### **FHRP**
+게이트웨이 이중화 프로토콜
+
