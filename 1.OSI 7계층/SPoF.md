@@ -5,6 +5,7 @@
 
 # SPoF 
 *Single Pint of Failure*  
+
 한 구성요소만 장애가 발생하더라도 전체 시스템이 마비될 때,  
 그런 구성요소를 가리켜 SPoF라고 한다.  
 
