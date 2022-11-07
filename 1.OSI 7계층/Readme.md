@@ -42,13 +42,15 @@ A. **하나의 통신이 회선 전체를 점유하지 않습니다.**
 
 
 &nbsp;
-### [**7계층 : 애플리케이션 계층** *Application Layer*]()
+### [**7계층 : 애플리케이션 계층** *Application Layer*](https://github.com/AtomicLiquors/Network_Wiki_Chb/edit/main/1.OSI%207%EA%B3%84%EC%B8%B5/7계층.md)
 
 &nbsp;
-### [**6계층 : 계층** *Physical Layer*]()
+### [**6계층 : 표현 계층** *Presentation Layer*](https://github.com/AtomicLiquors/Network_Wiki_Chb/edit/main/1.OSI%207%EA%B3%84%EC%B8%B5/6계층.md)
+
 
 &nbsp;
-### [**5계층 : 계층** *Physical Layer*]()
+### [**5계층 : 세션 계층** *Session Layer*](https://github.com/AtomicLiquors/Network_Wiki_Chb/edit/main/1.OSI%207%EA%B3%84%EC%B8%B5/5계층.md)
+
  
 &nbsp;
 ## 하위 계층 / 데이터 플로 계층 (1-4)
@@ -59,16 +61,19 @@ A. **하나의 통신이 회선 전체를 점유하지 않습니다.**
 
  
 &nbsp;
-### [**4계층 : 전송 계층** *Physical Layer*]()
+### [**4계층 : 전송 계층** *Transport Layer*](https://github.com/AtomicLiquors/Network_Wiki_Chb/edit/main/1.OSI%207%EA%B3%84%EC%B8%B5/4계층.md)
+
 ↓ 헤더를 추가하고 3계층으로 내려보낸다.
 
-### [**3계층 : 전송 계층** *Physical Layer*]()
+### [**3계층 : 네트워크 계층** *Network Layer*](https://github.com/AtomicLiquors/Network_Wiki_Chb/edit/main/1.OSI%207%EA%B3%84%EC%B8%B5/3계층.md)
+
 
 "IP 주소"   
 
 
 
-### [**2계층 : 전송 계층** *Physical Layer*]()
+### [**2계층 : 데이터링크 계층** *Data Link Layer*](https://github.com/AtomicLiquors/Network_Wiki_Chb/edit/main/1.OSI%207%EA%B3%84%EC%B8%B5/2계층.md)
+
 
 
 "MAC 주소"
@@ -76,7 +81,8 @@ A. **하나의 통신이 회선 전체를 점유하지 않습니다.**
 
  
 &nbsp;
-### [**1계층 : 물리 계층** *Physical Layer*]()
+### [**1계층 : 물리 계층** *Physical Layer*](https://github.com/AtomicLiquors/Network_Wiki_Chb/edit/main/1.OSI%207%EA%B3%84%EC%B8%B5/1계층.md)
+
 전기 신호를 재생성하여 정확히 전달.  
 주소 개념이 없으므로 모든 포트에 같은 전기 신호를 전송한다.  
 (물론 전기 신호가 들어온 포트는 제외)
