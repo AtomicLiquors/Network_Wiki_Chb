@@ -3,7 +3,7 @@
 &nbsp;  
 &nbsp;  
 # NAT-PAT
-**NAT** *Network Address Translation*  
+### **NAT** *Network Address Translation*  
 네트워크 주소 변환
 
 은연중에 실생활에서 많이 사용하는 기술.  
@@ -18,7 +18,7 @@
  
 &nbsp;
  
-**PAT** *Port Address Translation*  
+### **PAT** *Port Address Translation*  
 IP주소 고갈 문제를 해소하기 위해,  
 여러 개의 IP를 하나의 IP로 多:1 변환하는 기술.  
 
