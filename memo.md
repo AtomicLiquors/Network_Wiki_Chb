@@ -53,3 +53,6 @@ Ex) image, html, css, javascript 파일과 같이 컴퓨터에 저장되어 있�
 
 
 서브넷 아이피, 서브넷 마스크 개념 확인.
+
+### 쓰리 티어
+Web - WAS - DB
